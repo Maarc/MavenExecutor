@@ -37,7 +37,7 @@ public class ExecuteMavenPlugin {
 		System.setProperty("maven.home", MAVEN_HOME_VALUE);
 		
 		System.out.println(">>> Retrieve and save the pom.xml");
-		File f = executeDependencyGet("io.hawt : hawtio-jboss : 1.4.47");
+		File f = executeDependencyGet("io.hawt:hawtio-jboss:1.4.47");
 		// Equivalent to the call above ...
 		// File f = executeDependencyGet("io.hawt", "hawtio-jboss", "1.4.47");
 		
